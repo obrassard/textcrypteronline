@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    padding-top: 80px;
+    margin: 0px;
+    background-color: black;
+    padding-bottom: 20px;
+    background-image: url(PlbVW3.gif);
+}
+
+/* navbar */
+.navbar{
+    background: white;
+    border: none;
+}
+
+.black, .black a {
+  color: black;
+}
+
+.white, .white a {
+  color: white;
+}
+/* title */
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand strong,
+#spantitle{
+    color: black;
+    text-shadow: none;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: black;
+}
+
+/* link */
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+    text-shadow: none;
+}
+/* link */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover .black,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: red;
+}
+
+.options-list .black a:hover .icon {color: #ae0000;}
+/* selected (active)*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: white;
+    background: black;
+}
+
+/* mobile version */
+.navbar-inverse .navbar-toggle {
+    border-color: black;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: white;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: black;
+}
+
+
+*
+{
+    color: white;
+}
+
+.titlebold
+{
+    font-family: 'Consolas', 'Monaco', 'Inconsolata';
+    font-weight: bold;
+
+}
+.title
+{
+    font-family: 'Consolas', 'Monaco', 'Inconsolata';
+    Color: red;
+}
+a, li, #bottom
+{
+    font-family: 'Consolas', 'Monaco', 'Inconsolata';
+}
+
+p
+{
+    text-align: justify;
+    font-family: 'Consolas', 'Monaco', 'Inconsolata';
+}
+
+
+.whitebutton, .whitebutton a, .whitebutton:focus {
+    color: white;
+    border-color: white;
+
+}
+
+.whitebutton:hover,
+.whitebutton:hover .whitebuttonHover {
+    color: red;
+    background-color: white;
+}
+
+.twitter-follow-button {
+    margin-top: 5px;
+}
+
+#bottom {
+    font-size: 12px;
+}
