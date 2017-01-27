@@ -14,7 +14,12 @@ var rail = parseInt(document.getElementById("rail").value);
 function confirmRailValue() {
     console.log("Verified Rail Value: " + rail);
     if (isNaN(rail)) {
-        alert("Incorrect number of rails");
+        if (document.documentElement.lang == "en") {
+            alert("Incorrect number of rails; please enter a valid integer value.");
+        } else if (document.documentElement.lang == "fr"){
+            alert("Nombre de rails incorrect; veuillez entrer un nombre entier valide.");
+        }
+
         throw new Error("Incorrect rail value.");
     }
 }
@@ -61,6 +66,7 @@ function encrypter()
     }
     document.getElementById("output").value=motCrypte;
     console.info("Succesfully encrypted");
+
 }
 
 //Décryptage
