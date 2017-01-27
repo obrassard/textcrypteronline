@@ -4,9 +4,20 @@
 body {
     padding-top: 80px;
     margin: 0px;
-    background-color: black;
     padding-bottom: 20px;
-    background-image: url(PlbVW3.gif);
+    background-image: url(bg.gif);
+}
+#content
+{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("bgmobile.png");
+    }
 }
 
 /* navbar */
