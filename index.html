@@ -32,7 +32,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="https://github.com/obrassard/textcrypteronline/blob/master/script.js"><i class="fa fa-github black" aria-hidden="true"></i> View on Github</a></li>
-                        <li><a href="#"><i class="fa fa-bug black" aria-hidden="true"></i> About</a></li>
+                        <li><a href="about.html"><i class="fa fa-bug black" aria-hidden="true"></i> About</a></li>
                         <li><a href="fr.html"><i class="fa fa-language black" aria-hidden="true"></i> fr</a></li>
                     </ul>
                 </div>
@@ -40,13 +40,13 @@
         </nav>
         <!--menu bar-->
         <div id="content">
-            <div class="container" >
+            <div class="container" style="padding-top: 80px;" >
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="input">Input:</label>
-                            <input type="text" class="form-control" id="input" placeholder="Text to encrypt / decrypt">
+                            <textarea  class="form-control" id="input" placeholder="Text to encrypt / decrypt"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="rail">Number of rails:</label>
@@ -54,8 +54,8 @@
                         </div>
                         <div class="form-group">
                             <label for="output">Result:</label>
-                            <input readonly type="text" class="form-control" id="output">
-                            <p style="font-size: 13px; color: red; margin-top: 3px;">* Note that some ":" may have been added after the original text.</p>
+                            <textarea readonly class="form-control" id="output"></textarea>
+                            <p style="font-size: 13px; color: red;background: rgba(0, 0, 0, 0.4); margin-top: 3px;">* Note that some ":" may have been added after the original text.</p>
                         </div>
                         <button class="btn btn-success" type="button" id="encrypt">Encrypt</button>
                         <button  class="btn btn-success" type="button" id="decrypt">Decrypt</button>

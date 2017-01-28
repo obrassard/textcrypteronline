@@ -9,14 +9,29 @@ body {
 }
 #content
 {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    /*padding: 10px;
+    border-radius: 5px;*/
+
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
     body {
         background-image: url("images/bgmobile.png");
+    }
+    #content
+    {
+        background: rgba(0, 0, 0, 0.2);
     }
 }
 
@@ -129,3 +144,4 @@ p
 #bottom {
     font-size: 12px;
 }
+
